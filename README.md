@@ -52,8 +52,24 @@ A secure web-based Ice Cream Management System developed using PHP and MySQL.
 1. Install XAMPP.
 2. Copy the project folder into htdocs.
 3. Import ice_cream.sql into MySQL.
-4. Start Apache and MySQL.
-5. Open the project in the browser.
+
+
+
+   ## Project Screenshots (صور المشروع)
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Admin Panel
+![Admin Panel](screenshots/admin-panel.png)
+
+### Products Page
+![Products Page](screenshots/products.png)
+5. Start Apache and MySQL.
+6. Open the project in the browser.
 
 
 تم تطوير هذا المشروع كتطبيق عملي لمراحل S-SDLC في تطوير تطبيقات الويب الآمنة.
