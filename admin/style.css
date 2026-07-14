@@ -1,0 +1,226 @@
+*{
+margin:0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+
+}
+/*-----adminpanel-page-menu----*/
+
+body{
+    background-color: rgb(43, 0, 0);
+    overflow-x: hidden;/*?*/
+}
+
+.sidebar_container{
+    display: flex;
+    position: relative;
+    }
+
+.sidebar_container .sidebar{
+    background-color:rgb(255, 184, 152); 
+    position:fixed;
+    /* border-radius: 10px; */
+    right:79%;
+    width: 21%;
+    height: 95%;
+}
+.sidebar{
+border-radius: 15px;
+
+}
+.sidebar_container .sidebar h1{
+    color:rgb(43, 0, 0);
+    text-align:left;
+    margin:10px 0 5px 5px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.sidebar_container .sidebar ul{
+    border-bottom: 2px solid rgb(43, 0, 0);
+}
+.sidebar_container .sidebar ul li{
+    font-size: 25px;
+    font-weight: 600;
+    padding:10px;
+    border-bottom: 2px solid rgb(43, 0, 0);
+    float:left;
+
+}
+.sidebar_container .sidebar ul li i{
+    
+    font-size: 20px;
+    margin-right:10px;
+    color: brown;
+
+}
+
+.sidebar_container .sidebar ul li a{
+    display: block;
+    color: rgb(43, 0, 0);
+    padding: 10px;
+}
+.sidebar_container .sidebar ul li a:hover{
+    color:brown;
+}
+
+.sidebar_container .sidebar ul:hover{
+    background-color: rgb(43, 0, 0);
+    border-radius: 15px;
+}
+/*-----adminpanel-page-end----*/
+
+
+ .sidebar_container .content_sec{
+    width: 70%;
+    position:fixed;
+    left:20%;
+    margin-left: 40px;
+    padding:10px
+}
+.sidebar_container .content_sec label{
+    color:rgb(255, 184, 152); 
+    display: block;
+    margin-bottom: 5px;
+    font-size: 40px;
+    margin-right: 40px;
+    text-align: right;
+}
+.sidebar_container .content_sec input{
+    width:100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color:rgb(255, 184, 152); 
+    font-size: 15px;
+    border:1px solid rgb(43, 0, 0);
+    border-radius: 10px;
+}
+
+.sidebar_container .content_sec .add {
+    background-color:linear-gradient(90deg, rgb(43, 0, 0),
+    rgb(117, 2, 2),
+    rgb(253, 189, 159),
+    rgb(255, 184, 152),
+    rgb(117, 2, 2),
+    rgb(80, 0, 0));
+    color:rgb(43, 0, 0);
+    background-size: 100%;
+    border:none;
+    cursor:pointer;
+    
+    border: none;
+    color:rgb(80, 0, 0);
+    padding:15px 30px;
+    text-align: center;
+    font-size: 20px;
+   
+    border-radius: 10px;
+
+}
+.sidebar_container .content_sec .add:hover {
+    background-color: rgb(255, 165, 123);
+} 
+
+.sidebar_container table {
+    background-color:rgb(255, 184, 152); 
+    width: 100%;
+    border-collapse: collapse;/*?*/
+}
+ .sidebar_container table th,td{
+    font-size: 22px;
+    color:rgb(43, 0, 0);
+    padding:8px;
+    text-align: center;
+    border:1px solid brown;
+}
+.sidebar_container table th{
+    background-color: brown;
+    border:1px solid rgb(255, 184, 152);
+
+}
+.sidebar_container table .delete, .update{
+    color:rgb(255, 255, 255); 
+    font-size: 14px;
+    font-weight: 700;
+    padding:8px 10px;
+    border-radius: 10px;
+    border:2px solid rgb(255, 255, 255);
+    margin-right:5px;
+}
+.sidebar_container table .delete{
+    background-color: rgb(218, 15, 15);
+
+}
+.sidebar_container table .update{
+    background-color: rgb(16, 172, 81);
+    
+}
+
+.sidebar_container table .delete:hover{
+    
+    background-color:rgb(245, 17, 17);
+    box-shadow: -4px -4px 40px rgb(245, 17, 17);
+
+    cursor: pointer;
+} 
+.sidebar_container table .update:hover{
+    background-color:  rgb(26, 219, 107);
+    box-shadow: -4px -4px 40px rgb(27, 236, 114);
+
+    cursor: pointer;
+
+}
+.sidebar_container table img{
+    width: 82px;
+    height: 70px;
+    border-radius: 8px;
+}
+/*-----adminpanel-page-----*/
+.form_product{
+    text-align: center;
+    width:60%;
+    margin:4px;
+    position:fixed;
+    left:27%;
+    box-shadow: 0 5px 10px rgb(43, 0, 0) ;
+
+}
+h1{
+    color:rgb(255, 184, 152);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+label{
+    color:rgb(255, 184, 152);
+    display: block;
+    margin-bottom: 5px;
+    font-size: 25px;
+
+}
+input{
+    width:80%;
+    padding:14px;
+    margin-bottom: 10px;
+    border:1px solid rgb(255, 184, 152);
+    border-radius: 10px;
+}
+.button{
+    width:40%;
+    padding:10px;
+    margin-top:15px;
+    margin-bottom:15px;
+    background-color: brown;
+    color:rgb(255, 184, 152);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 700;
+}
+.button:hover{
+
+    color: brown;
+    background-color:rgb(255, 184, 152);
+}
+/*-----adminpanel-page--end---*/
